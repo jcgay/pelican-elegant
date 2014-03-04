@@ -102,6 +102,7 @@
                 <time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
                 </div>
                 </section>
+				<section class="article-summary">{{ article.summary }}</section>
             </article>
             {% endif %}
             {% endfor %}
