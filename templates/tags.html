@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block title %}
-All Tags · {{ super() }}
+Tags · {{ super() }}
 {% endblock title %}
 
 {% block head_description %}
-All tags used in the {{ SITENAME|striptags|e }} blog.
+Tous les tags utilisés au sein du blog {{ SITENAME|striptags|e }}.
 {% endblock head_description %}
 
 {% block meta_tags_in_head %}
@@ -33,13 +33,13 @@ All tags used in the {{ SITENAME|striptags|e }} blog.
 
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1><a href="{{ SITEURL }}/tags.html">All Tags</a></h1>
+    <h1><a href="{{ SITEURL }}/tags.html">Tous les tags</a></h1>
     </header>
 </div>
 <div class="row-fluid">
     <div class="span8 offset2">
         <form class="form-search">
-            <input type="text" class="input-medium search-query filterinput" placeholder="Find a tag">
+            <input type="text" class="input-medium search-query filterinput" placeholder="Rechercher un tag">
         </form>
         <ul class="list-of-tags">
             {% for tag, articles in tags|sort %}

@@ -27,7 +27,7 @@ $('#disqus_thread').on('shown', function () {
     var link = document.getElementsByClassName('accordion-toggle');
     var old_innerHTML = link[0].innerHTML;
     $(link[0]).fadeOut(500, function() {
-        $(this).text('Click here to hide comments').fadeIn(500);
+        $(this).text('Masquer les commentaires').fadeIn(500);
     });
     $('#disqus_thread').on('hidden', function () {
         $(link[0]).fadeOut(500, function() {
@@ -56,5 +56,5 @@ $('#disqus_thread').on('shown', function () {
      })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<a href="http://disqus.com" class="dsq-brlink">commentaires hébergés par <span class="logo-disqus">Disqus</span></a>
 {% endmacro %}
