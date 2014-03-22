@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{% if article and article.lang %}
+<html lang="{{ article.lang }}">
+{% else %}
 <html lang="fr-FR">
+{% endif %}
     <head>
         <meta charset="utf-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
