@@ -290,13 +290,13 @@ i.sidebar-social-links:hover {
     background-color: #A2A2A2;
     color: #fff;
 }
-i.fa-twitter:hover, i.fa-twitter-square:hover {
+i.fa-twitter:hover {
     background-color: #00ACED;
 }
-i.fa-facebook:hover, i.fa-facebook-square:hover {
+i.fa-facebook:hover {
     background-color: #3B5998;
 }
-i.fa-google-plus:hover, i.fa-google-plus-square:hover {
+i.fa-google-plus:hover {
     background-color: #D34836;
 }
 i.fa-adn:hover {
@@ -314,7 +314,7 @@ i.fa-flickr:hover {
 i.fa-youtube:hover, i.fa-youtube-square:hover, i.fa-youtube-play:hover {
     background-color: #BC272F;
 }
-i.fa-linkedin:hover, i.fa-linkedin-square:hover {
+i.fa-linkedin:hover {
     background-color: #107FB9;
 }
 i.fa-gittip:hover {

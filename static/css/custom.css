@@ -1,3 +1,33 @@
 section.article-summary {
 	margin-top: 10px;
 }
+
+.social-share {
+    margin-top: 50px;
+    color: #DEDEDE;
+    line-height: 30px;
+}
+
+.social-share .share-label {
+    display: inline-block;
+    line-height: 30px;
+    border-right: 1px solid #EEE;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.social-share .share-links {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.share-links a {
+    font-size: 24px;
+    color: #DEDEDE;
+}
+
+.share-links a:hover {
+    color: #56a0c7;
+    text-decoration: none;
+}
