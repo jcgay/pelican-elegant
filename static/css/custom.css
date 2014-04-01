@@ -31,3 +31,7 @@ section.article-summary {
     color: #56a0c7;
     text-decoration: none;
 }
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
